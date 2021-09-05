@@ -1,0 +1,10 @@
+<root>
+	<Global>
+		<Browser>chrome</Browser>
+		<URL>https://sbp-dev.dallmeier.vn</URL>
+		<FullName>initUser</FullName>
+		<Username>initUser</Username>
+		<Password>initUser</Password>
+		<Author>initUser, initUser</Author>
+	</Global>
+</root>

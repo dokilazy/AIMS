@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [SBP_REGRESSION_26July2021]" parallel="classes">
+  <parameter name="remote" value="no"/>
+  <listeners>
+    <listener class-name="tests.AnnotationTransformer"/>
+  </listeners>
+  <test name="API_Testing(failed)" parallel="classes">
+    <classes>
+      <class name="tests.SBP.DHL_APITest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="verify_create_new_incident_not_allow_overwrite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.SBP.DHL_APITest -->
+    </classes>
+  </test> <!-- API_Testing(failed) -->
+  <test name="GUI_Testing(failed)" parallel="classes">
+    <classes>
+      <class name="tests.SBP.DHL_Setting_2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="Verify_upload_invalidForm"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.SBP.DHL_Setting_2 -->
+      <class name="tests.SBP.DHL_Event">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="verify_create_form"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.SBP.DHL_Event -->
+      <class name="tests.SBP.DHL_Inbox">
+        <methods>
+          <include name="verify_assigneeIsMe_and_coworker"/>
+          <include name="afterMethod"/>
+          <include name="verify_add_new_incident_AutoGenerateCode"/>
+          <include name="afterTest"/>
+          <include name="verify_incident_state_history"/>
+          <include name="verify_search_incident_by_code"/>
+          <include name="verify_fields_disable_untill_fill_assignee"/>
+          <include name="beforeTest"/>
+          <include name="verify_add_new_incident_ManualGenerateCode"/>
+          <include name="verify_assignee_and_coworkerIsMe"/>
+          <include name="beforeMethod"/>
+          <include name="verify_update_incident_type_of_incident"/>
+          <include name="verify_incident_state_history_reset_after_changing_incident_type"/>
+        </methods>
+      </class> <!-- tests.SBP.DHL_Inbox -->
+      <class name="tests.SBP.DHL_Setting_1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="Verify_add_validation_rule"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.SBP.DHL_Setting_1 -->
+    </classes>
+  </test> <!-- GUI_Testing(failed) -->
+</suite> <!-- Failed suite [SBP_REGRESSION_26July2021] -->

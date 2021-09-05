@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Selenium Grid" thread-count="2" verbose="3" parallel="tests">
+
+	<parameter name="remote" value="no" />
+	<test name="Testing_On_Chrome">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="tests.Sandbox.FacebookTest">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Testing_On_Firefox">
+	    <parameter name="browser" value="firefox"></parameter>
+		<classes>
+				<class name="tests.Sandbox.FacebookTest">
+				</class>
+		</classes>
+	</test>
+	
+	
+</suite>

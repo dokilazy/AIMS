@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CP_RegressionTest" thread-count="1" verbose="3">
+<!-- <suite name="BVT" thread-count="1" verbose="3" parallel="classes"> -->
+	<parameter name="remote" value="no" />
+	<test name="Regression">
+		<classes>
+		 	<class name="tests.Sandbox.CPTest"> 
+		   	 </class> 
+		</classes>
+ 	</test>
+</suite>

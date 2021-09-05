@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_1july" thread-count="2" verbose="3" parallel="classes">
+<!-- <suite name="Regression_1july" thread-count="2" verbose="3" parallel="classes"> -->
+	<parameter name="remote" value="no" />
+	<listeners>
+        <listener class-name="tests.AnnotationTransformer"/>
+ 	 </listeners>
+	
+	<test name="Regression_20july">
+		    <classes>
+		<!--	<class name="tests.Sandbox.CPTest">  --> 
+		   
+		   <class name="tests.ColcParking.ContraventionDetails"> 
+		     </class> 
+		<!--   <class name="tests.ColcParking.CPSettings">   --> 
+		   
+		</classes>
+ 	</test>
+</suite>

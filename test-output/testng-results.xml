@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Selenium Grid" duration-ms="16457" started-at="2021-09-05T11:41:32Z" finished-at="2021-09-05T11:41:48Z">
+    <groups>
+    </groups>
+    <test name="Testing_On_Chrome" duration-ms="14331" started-at="2021-09-05T11:41:32Z" finished-at="2021-09-05T11:41:46Z">
+      <class name="tests.Sandbox.FacebookTestParallel">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.Sandbox.FacebookTestParallel@a7e666]" name="beforeMethod" is-config="true" duration-ms="3314" started-at="2021-09-05T11:41:32Z" finished-at="2021-09-05T11:41:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void tests.Sandbox.FacebookTestParallel.LoginFacebook()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginFacebook()[pri:0, instance:tests.Sandbox.FacebookTestParallel@a7e666]" name="LoginFacebook" duration-ms="6340" started-at="2021-09-05T11:41:35Z" finished-at="2021-09-05T11:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFacebook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Sandbox.FacebookTestParallel@a7e666]" name="afterMethod" is-config="true" duration-ms="4662" started-at="2021-09-05T11:41:41Z" finished-at="2021-09-05T11:41:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginFacebook status=SUCCESS method=FacebookTestParallel.LoginFacebook()[pri:0, instance:tests.Sandbox.FacebookTestParallel@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.Sandbox.FacebookTestParallel -->
+    </test> <!-- Testing_On_Chrome -->
+    <test name="Testing_On_Firefox" duration-ms="16456" started-at="2021-09-05T11:41:32Z" finished-at="2021-09-05T11:41:48Z">
+      <class name="tests.Sandbox.FacebookTestParallel">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.Sandbox.FacebookTestParallel@27a5f880]" name="beforeTest" is-config="true" duration-ms="30" started-at="2021-09-05T11:41:31Z" finished-at="2021-09-05T11:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.Sandbox.FacebookTestParallel@27a5f880]" name="beforeMethod" is-config="true" duration-ms="10341" started-at="2021-09-05T11:41:32Z" finished-at="2021-09-05T11:41:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void tests.Sandbox.FacebookTestParallel.LoginFacebook()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginFacebook()[pri:0, instance:tests.Sandbox.FacebookTestParallel@27a5f880]" name="LoginFacebook" duration-ms="5349" started-at="2021-09-05T11:41:42Z" finished-at="2021-09-05T11:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFacebook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Sandbox.FacebookTestParallel@27a5f880]" name="afterMethod" is-config="true" duration-ms="753" started-at="2021-09-05T11:41:47Z" finished-at="2021-09-05T11:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginFacebook status=SUCCESS method=FacebookTestParallel.LoginFacebook()[pri:0, instance:tests.Sandbox.FacebookTestParallel@27a5f880] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.Sandbox.FacebookTestParallel@27a5f880]" name="afterTest" is-config="true" duration-ms="3" started-at="2021-09-05T11:41:48Z" finished-at="2021-09-05T11:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.Sandbox.FacebookTestParallel -->
+    </test> <!-- Testing_On_Firefox -->
+  </suite> <!-- Test Selenium Grid -->
+</testng-results>

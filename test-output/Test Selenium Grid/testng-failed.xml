@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Test Selenium Grid]" parallel="tests">
+  <parameter name="remote" value="yes"/>
+  <test thread-count="1" verbose="3" name="Testing_On_Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.Sandbox.FacebookTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="LoginFacebook"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.Sandbox.FacebookTest -->
+    </classes>
+  </test> <!-- Testing_On_Chrome(failed) -->
+  <test thread-count="1" verbose="3" name="Testing_On_Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.Sandbox.FacebookTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="LoginFacebook"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.Sandbox.FacebookTest -->
+    </classes>
+  </test> <!-- Testing_On_Firefox(failed) -->
+</suite> <!-- Failed suite [Test Selenium Grid] -->

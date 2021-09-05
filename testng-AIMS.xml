@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AIMS Regression" thread-count="2" verbose="3"
+	parallel="classes">
+	<parameter name="remote" value="no" />
+	<listeners>
+		<listener class-name="tests.AnnotationTransformer" />
+	</listeners>
+	<test name="API_Testing">
+		<classes>
+			<class name="tests.SBP.DHL_APITest">
+			</class>
+		</classes>
+	</test> 
+	<test name="GUI_Testing">
+		<classes>
+		    <class name="tests.SBP.DHL_APITest">
+			</class>
+			<class name="tests.SBP.DHL_Setting_1">
+			</class>
+			<class name="tests.SBP.DHL_Setting_2"> 
+			</class> 
+		
+			<class name="tests.SBP.DHL_Inbox">
+				<methods>
+					<include name="verify_assignee_and_coworkerIsMe" />
+					<include name="verify_assigneeIsMe_and_coworker" />
+					<include name="verify_mark_delete_for_an_incident" />
+					<include name="verify_search_incident_by_code" />
+					
+					<include name="verify_search_incident_by_custom_fields" />
+					<include name="verify_update_incident_manually" />
+					<include name="verify_update_incident_type_of_incident" />
+					<include name="verify_counter_when_creating_new_incidents" />
+					<include name="verify_counter_when_updating_incidents" />
+					<include name="verify_incident_state_history" />
+					<include
+						name="verify_incident_state_history_reset_after_changing_incident_type" />
+					<include name="verify_fields_disable_untill_fill_assignee" />
+					<include name="verify_add_new_incident_ManualGenerateCode" />
+					<include name="verify_add_new_incident_AutoGenerateCode" />
+				</methods>
+			</class>
+			<class name="tests.SBP.DHL_Event">
+				<methods>
+					<include name="verify_create_form" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

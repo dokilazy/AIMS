@@ -1,0 +1,44 @@
+
+<IncidentFile>
+    <File_Name>20200724_d4700cec-3c69-40f8-a8e5-9ca0b323e517.xml</File_Name>
+    <File_Date>2020/07/24</File_Date>
+    <File_Time>10:03:14</File_Time>
+    <Incident_Count>1</Incident_Count>
+    <Incidents>
+        <Incident>
+            <Incident_Ref>2020183-00060</Incident_Ref>
+            <Incident_Date>2020/07/01</Incident_Date>
+            <Incident_Time>14:51:54</Incident_Time>
+            <VRM>VN42ZSW</VRM>
+            <Make>ACCESS SP300-5</Make>
+            <Model></Model>
+            <Colour>BLACK</Colour>
+            <Foreign>N</Foreign>
+            <Diplomatic>N</Diplomatic>
+            <Operator_UserID>vu.nguyen</Operator_UserID>
+            <Offence_Code>32D</Offence_Code>
+            <Camera_ID>00663</Camera_ID>
+            <Video_Ref>http://192.168.1.83:8885/k.mp4</Video_Ref>
+            <Street_ID>TOYUT_TEST</Street_ID>
+            <Location>DUGQFY_TEST</Location>
+            <Incident_Type>Ignore Blue Sign Arrow (proceed wrong way)</Incident_Type>
+            <Images>
+                <Image_File>
+                    <Identifier>20d5ba47-9a60-4ccd-a802-c89ac850be6b</Identifier>
+                    <Type>V</Type>
+                    <File_Name>EE88C268-0CB2-49AB-B3EE-8995F7CB4EFF.mpg</File_Name>
+                </Image_File>
+                <Image_File>
+                    <Identifier>432c39f5-f476-4611-82f2-f8bb9f597a4b</Identifier>
+                    <Type>S</Type>
+                    <File_Name>16776-1593589919826.jpg</File_Name>
+                </Image_File>
+                <Image_File>
+                    <Identifier>b6da3d85-a300-4bb0-ab9f-7e9a2bedb850</Identifier>
+                    <Type>S</Type>
+                    <File_Name>16776-1593589916635.jpg</File_Name>
+                </Image_File>
+            </Images>
+        </Incident>
+    </Incidents>
+</IncidentFile>
