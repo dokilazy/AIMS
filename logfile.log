@@ -289,3 +289,4 @@
 2021-09-03 18:17:05,975 INFO  [Log] Screenshot for class= tests.SBP.DHL_Setting_1 method=Verify_update_system_page saved in: C:\Work\Automation\myFW\target\Failed Case Screenshots\tests.SBP.DHL_Setting_1_Verify_update_system_page_18.17.png 
 2021-09-03 22:39:38,470 INFO  [Log] Screenshot for class= tests.Sandbox.FacebookTest method=LoginFacebook saved in: C:\Work\Automation\myFW\target\Failed Case Screenshots\tests.Sandbox.FacebookTest_LoginFacebook_22.39.png 
 2021-09-03 22:46:42,239 INFO  [Log] Screenshot for class= tests.Sandbox.FacebookTest method=LoginFacebook saved in: C:\Work\Automation\myFW\target\Failed Case Screenshots\tests.Sandbox.FacebookTest_LoginFacebook_22.46.png 
+2021-09-13 18:03:22,326 INFO  [Log] Screenshot for class= tests.Sandbox.FacebookTestParallel method=LoginFacebook saved in: C:\Work\Automation\AIMS\myFW\target\Failed Case Screenshots\tests.Sandbox.FacebookTestParallel_LoginFacebook_18.3.png 
